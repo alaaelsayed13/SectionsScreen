@@ -20,14 +20,11 @@ class _ThirdScreenState extends State<ThirdScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        leading: Icon(Icons.menu),
         backgroundColor: Color.fromRGBO(243, 244, 246, 1),
         elevation: 0,
-        actions: [
-          Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 60),
-            child: SvgPicture.asset('assets/images/dots.svg'),
-          )
-        ],
+       
+        
       ),
        backgroundColor:  Color.fromRGBO(243, 244, 246, 1)
       ,
@@ -78,7 +75,7 @@ class _ThirdScreenState extends State<ThirdScreen> {
                     });
                   }),
                   child: Container(decoration: BoxDecoration(borderRadius: BorderRadius.circular(20), color : Colors.white),
-                    width: 130,
+                    width: 120,
                     height: 120,
                   
                   
@@ -102,7 +99,7 @@ class _ThirdScreenState extends State<ThirdScreen> {
                     });
                   }),
                   child: Container(decoration: BoxDecoration(borderRadius: BorderRadius.circular(20), color: Colors.white),
-                    width: 130,
+                    width: 120,
                     height: 120,
                   
                   
@@ -133,7 +130,7 @@ class _ThirdScreenState extends State<ThirdScreen> {
                   });
                 },
                   child: Container(decoration: BoxDecoration(borderRadius: BorderRadius.circular(20), color: Colors.white),
-                    width: 130,
+                    width: 120,
                     height: 120,
                   
                   
@@ -156,7 +153,7 @@ class _ThirdScreenState extends State<ThirdScreen> {
                   });
                 },
                   child: Container(decoration: BoxDecoration(borderRadius: BorderRadius.circular(20), color: Colors.white),
-                    width: 130,
+                    width: 120,
                     height: 120,
                   
                   
@@ -189,7 +186,7 @@ class _ThirdScreenState extends State<ThirdScreen> {
                   });
                 }),
                   child: Container(decoration: BoxDecoration(borderRadius: BorderRadius.circular(20), color: Colors.white),
-                    width: 130,
+                    width: 120,
                     height: 120,
                   
                   
@@ -212,7 +209,7 @@ class _ThirdScreenState extends State<ThirdScreen> {
                   });
                 },
                   child: Container(decoration: BoxDecoration(borderRadius: BorderRadius.circular(20), color: Colors.white),
-                    width: 130,
+                    width: 120,
                     height: 120,
                   
                   
